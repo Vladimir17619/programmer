@@ -1,7 +1,18 @@
-var a = 10;
-var b = 5;
-if (a > 0, b > 0)
+var a = prompt('Введите значение a');
+var b = prompt('Введите зачение b');
+if (a > 0 && b > 0) {
     alert(a - b);
-else (a < 0, b < 0)
-alert(a * b);
+}
+else if (a < 0 && b < 0) {
+    alert(a * b);
+}
+else if (a < 0 && b >= 0) {
+    alert(a / b)
+}
+else if (a >= 0 && b < 0) {
+    alert(a / b)
+}
+
+
+
 

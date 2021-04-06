@@ -1,36 +1,32 @@
-x = prompt();
-y = prompt();
-function sum(x, y, operation) {
-    return (x + y);
+function Sum(x, y) {
+    return x + y;
 }
-function dif(x, y, operation) {
-    return (x - y);
+function Dif(x, y) {
+    return x - y;
 }
-function mul(x, y, operation) {
-    return (x * y);
+function Mul(x, y) {
+    return x * y;
 }
-function div(x, y, operation) {
-    return (x / y);
+function Div(x, y) {
+    return x / y;
 }
-switch (x, y) {
-    case (x > 0, y > 0):
-        z = sum;
-        alert(z);
-        console.log(sum);
+function mathOperation(x, y, operation) {
+    return (operation);
+}
+let x = prompt("введите x");
+let y = prompt("введите y");
+let operation = prompt();
+switch (operation) {
+    case operation = "Сложение":
+        console.log(Sum);
         break;
-}
-switch (x, y) {
-    case (x < 0, y < 0):
-        console.log(dif);
+    case operation = "Вычитание":
+        console.log(Difn);
         break;
-}
-switch (x, y) {
-    case (x > 0, y < 0):
-        console.log(mul);
+    case operation = "Умножение":
+        console.log(Mul);
         break;
-}
-switch (x, y) {
-    case (x < 0, y > 0):
-        console.log(div);
+    case operation = "Деление":
+        console.log(Div);
         break;
 }

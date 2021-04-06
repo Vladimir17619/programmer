@@ -17,16 +17,16 @@ let x = prompt("введите x");
 let y = prompt("введите y");
 let operation = prompt();
 switch (operation) {
-    case operation = "Сложение":
+    case "Сложение":
         console.log(Sum);
         break;
-    case operation = "Вычитание":
+    case "Вычитание":
         console.log(Difn);
         break;
-    case operation = "Умножение":
+    case "Умножение":
         console.log(Mul);
         break;
-    case operation = "Деление":
+    case "Деление":
         console.log(Div);
         break;
 }
